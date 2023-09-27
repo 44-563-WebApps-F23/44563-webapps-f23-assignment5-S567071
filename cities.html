@@ -68,18 +68,16 @@
     <img src="Paris.jpg" class="img-fluid" alt="Paris" style="height: 200px;">
   </div>
   <br>
-  <!-- <br>
-<br> -->
   <div class="container">
     <img src="Dallas.jpg" class="img-thumbnail" alt="Dallas">
     <img src="Istanbul.jpg" class="img-thumbnail" alt="Istanbul" style="height: 200px;">
     <img src="Paris.jpg" class="img-thumbnail" alt="Paris" style="height: 200px;">
   </div>
   <br>
-  <!-- <table class="table table-bordered table-striped">
-    <caption>Table for Letter, City, River, Tree !</caption>
+  <table class="table table-bordered table-striped table-hover table-info">
+    <caption>Table containing data based on the Letter, City, River, Tree !</caption>
     <thead>
-      <tr>
+      <tr class="table-danger">
         <th scope="col">Letter</th>
         <th scope="col">City</th>
         <th scope="col">River</th>
@@ -126,25 +124,40 @@
     </tbody>
   </table>
   <br>
-  <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-    <div class="btn-group" role="group" aria-label="Basic mixed styles example">
-      <button type="button" class="btn btn-success">D</button>
-      <button type="button" class="btn btn-success">I</button>
-      <button type="button" class="btn btn-success">P</button>
-    </div>
-    <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-      <button type="button" class="btn btn-warning">J</button>
-      <button type="button" class="btn btn-warning">E</button>
-    </div>
-    <div class="btn-group" role="group" aria-label="Basic mixed styles example">
-      <button type="button" class="btn btn-danger">E</button>
+    </nav>
+    <p>Buttons with class btn:</p>
+    <button type="button" class="btn btn-outline-secondary">J</button>
+    <button type="button" class="btn btn-outline-secondary">E</button>
+    <button type="button" class="btn btn-outline-secondary">E</button>
+    <button type="button" class="btn btn-outline-secondary">D</button>
+    <button type="button" class="btn btn-outline-secondary">I</button>
+    <button type="button" class="btn btn-outline-secondary">P</button>
+    <br>
+    <br>
+    <p>Button with class toolbar:</p>
+    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+      <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+        <button type="button" class="btn btn-success">J</button>
+        <button type="button" class="btn btn-success">E</button>
+        <button type="button" class="btn btn-success">E</button>
+      </div>
+      <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+
+        <button type="button" class="btn btn-warning">D</button>
+        <button type="button" class="btn btn-warning">I</button>
+      </div>
+      <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+        <button type="button" class="btn btn-danger">P</button>
+      </div>
     </div>
   </div>
   <br>
   <br>
 
-  <div class="dropdown">
+  <!-- <div class="dropdown">
     <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"
       style="background-color:  palevioletred;">
       Dropdown button
